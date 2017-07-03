@@ -1,0 +1,23 @@
+.facebook-login-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.icon-button {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.custom-button {
+  background-color: #365899;
+  border-color: #365899;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0px 16px;
+  cursor: pointer;
+}

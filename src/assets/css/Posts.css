@@ -1,0 +1,156 @@
+.feed-container {
+  margin-top: 12px;
+}
+
+.posts-line {
+  max-width: 524px;
+  padding: 0 24px;
+}
+
+.post-container {
+  background-color: white;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+
+.feed-creator-textarea {
+  width: 100%;
+  padding: 16px 0px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.feed-creator-file-input {
+  display: none;
+}
+
+.post-content > div {
+  margin-top: 8px;
+}
+
+
+.profile-avatar {
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+
+.post-metadata {
+  padding: 4px 16px;
+}
+
+.post-creator {
+  color: #365899;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.post-updated {
+  color: #90949c;
+  font-size: 12px;
+  padding: 4px 0px;
+}
+
+
+.video-preview-container {
+  background-color: #f6f7f9;
+  border: 1px solid #dddfe2;
+  margin-bottom: 8px;
+  padding: 16px;
+  user-select: none;
+}
+
+.video-preview-input label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  opacity: 0.87;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.video-preview-input input {
+  font-size: 12px;
+  line-height: 18px;
+  width: 186px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 4px;
+  margin-bottom: 16px;
+}
+
+
+.video-preview-thumbnail-container {
+  position: relative;
+}
+
+.video-preview-thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.video-preview-thumbnail-count {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.video-preview-add-thumbnail-button {
+  position: absolute;
+  top: 8px;
+  right: 48px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 3px;
+  padding: 4px 16px;
+  background-color: rgba(20, 22, 26, .3);
+}
+
+.video-preview-add-thumbnail-button:hover {
+  background-color: rgba(20, 22, 26, .7);
+}
+
+.video-preview-add-thumbnail-button .video-preview-button-label {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.video-preview-arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  width: 48px;
+}
+
+
+.video-preview-arrow svg {
+  opacity: 0.3;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.video-preview-arrow:hover svg {
+  opacity: 0.8;
+}
+
+.arrow-left {
+  left: 0;
+  margin-left: 8px;
+}
+
+.arrow-right {
+  right: 0;
+  margin-right: 8px;
+}
